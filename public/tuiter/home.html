@@ -1,0 +1,91 @@
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="notifications.html">Notifications</a></li>
+                    <li><a href="messages.html">Messages</a></li>
+                    <li><a href="bookmarks.html">Bookmarks</a></li>
+                    <li><a href="lists.html">Lists</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="tuit.html">Tuit</a></li>
+                    <li><a href="reply.html">Reply</a></li>
+                </ul>
+            </td>
+            <td>
+                <button type="button"><a href="javascript:history.back()">Back</a></button>
+
+                <h1>Tuiter</h1>
+                <h2>Home</h2>
+                <img width="48px"
+                    src="https://pbs.twimg.com/profile_images/1260783892073594880/TvTK67cv_400x400.jpg"/>
+                <br/>
+
+                <textarea id="newTuitInput" placeholder="What's happening?" name="newTuit" rows="3" cols="20"></textarea>
+                <br/>
+
+                <select>
+                    <option selected value="EVERYONE">Everyone can reply</option>
+                    <option value="FOLLOWING">People you follow</option>
+                    <option value="MENTIONED">Only people you mention</option>
+                </select>
+                <br/>
+                <hr>
+                <button type="button" id="nofile">Choose File</button> 
+                <label for="nofile">No file chosen</label>
+                &ensp;&ensp;&ensp;&ensp;&ensp;
+                <button type="button">Tuit</button>
+                <br/>
+                <hr>
+
+                <ul>
+                    <li><a href="topic.html">Topic 345</a> <br/>
+                    <video width="320" controls>
+                        <source src="view.mp4" type="video/mp4">
+                    </video></li>
+                    <a href="profile.html">Sherry</a>
+                    @sherry - 6h
+                    <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.    </p>
+                    <a href="reply.html">Reply</a> 123 |
+                    <a href="retuit.html">Retuit</a> 234 |
+                    <a href="like.html">Like</a> 345 |
+                    <a href="like.html">Share</a>
+                </ul>
+
+                <ul>
+                    <li><a href="topic.html">Topic 234</a></li>
+                    <img width="48px"
+                        src="data:image/png;base64,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"/>
+                        <a href="profile.html">Setrakien</a>
+                    @setrakien - 4h
+                    <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).    <br/><br/>
+                    </p>
+                    <a href="reply.html">Reply</a> 123 |
+                    <a href="retuit.html">Retuit</a> 234 |
+                    <a href="like.html">Like</a> 345 |
+                    <a href="like.html">Share</a>
+                </ul>
+
+                <ul>
+                    <li><a href="topic.html">Topic 123</a></li>
+                    <img width="48px"
+                        src="https://media.istockphoto.com/id/1128832382/vector/arrow-shuffle-icon-vector-random-symbol-for-your-web-site-design-logo-app-ui-illustration.jpg?s=612x612&w=0&k=20&c=tSkC_wjatBNu02a579HHhczVR1zRvdaucksuH7sbMaU="/>
+                        <a href="profile.html">Brandon</a>
+                    @brandon - 2h
+                    <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <a href="reply.html">Reply</a> 123 |
+                    <a href="retuit.html">Retuit</a> 234 |
+                    <a href="like.html">Like</a> 345 |
+                    <a href="like.html">Share</a>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+
+</table>
