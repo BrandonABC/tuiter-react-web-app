@@ -1,0 +1,69 @@
+.wd-margin-right {
+    margin-right: 20px;
+}
+
+.wd-float-right {
+    float: right;
+}
+.wd-float-left {
+    float: left;
+}
+
+.wd-pos-absolute-name {
+    position: absolute;
+    top: 108px;
+    left: 103px;
+}
+.wd-pos-absolute-at {
+    position: absolute;
+    top: 108px;
+    left: 230px;
+}
+.wd-pos-absolute-name2 {
+    position: absolute;
+    top: 808px;
+    left: 103px;
+}
+.wd-pos-absolute-at2 {
+    position: absolute;
+    top: 808px;
+    left: 200px;
+}
+.wd-pos-absolute-profile-pic {
+    position: absolute;
+    top: 825px;
+}
+.wd-pos-absolute-description {
+    position: absolute;
+    top: 140px;
+    left: 103px;
+}
+.wd-pos-absolute-description2 {
+    position: absolute;
+    top: 840px;
+    left: 103px;
+}
+.wd-profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.wd-fg-color-darkgrey { color: #7d8a95; }
+
+.wd-round-corner-top {
+    width: 400px; border-top-left-radius: 30px; border-top-right-radius: 30px;
+}
+.wd-round-corner-bottom {
+    width: 376px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;
+}
+
+
+.table-container {
+    width: 400px;
+    overflow: auto;
+}
+  
+table {
+    width: 100%;
+}
