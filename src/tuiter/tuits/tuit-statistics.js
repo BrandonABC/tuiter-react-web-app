@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { useDispatch } from "react-redux";
-import {likeTuit} from "../reducers/tuits-reducer";
+import { updateTuitThunk } from "../services/tuits-thunks";
 import { BiChatSquare, BiArrowRepeat, BiHeart, BiHeartFill, BiBoxArrowUpRight } from "react-icons/bi";
 
 const TuitStatistics = ({ tuit }) => {
@@ -8,7 +8,7 @@ const TuitStatistics = ({ tuit }) => {
     const dispatch = useDispatch()
 
     const likeClickHandler = (id) => {
-        dispatch(likeTuit(id));
+        dispatch(updateTuitThunk(id));
     };
 
     return (
