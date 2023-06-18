@@ -7,14 +7,14 @@
     },
     {
       "_id": 234,
-      "userName": "Tesla",
-      "handle": "tesla",
-      "avatarIcon": "tesla.png"
+      "userName": "TESLA",
+      "handle": "TESLA",
+      "avatarIcon": "tesla1.png"
     },
     {
       "_id": 345,
-      "userName": "SpaceX",
-      "handle": "SpaceX",
-      "avatarIcon": "spacex.png"
+      "userName": "SPACEX",
+      "handle": "SPACEX",
+      "avatarIcon": "spacex.jpg"
     }
-]   
+]
